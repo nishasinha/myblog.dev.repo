@@ -1,0 +1,6 @@
+[submodule "themes/LoveIt"]
+	path = themes/LoveIt
+	url = git@github.com:dillonzq/LoveIt.git
+[submodule "themes/hugo-theme-cleanwhite-rsy"]
+	path = themes/hugo-theme-cleanwhite-rsy
+	url = git@github.com:youngkin/hugo-theme-cleanwhite-rsy.git
