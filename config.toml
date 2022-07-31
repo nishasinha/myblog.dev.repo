@@ -1,0 +1,110 @@
+baseURL = "https://nishasinha.github.io"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "LoveIt"
+
+# website title
+title = "Nisha Kumari's Site"
+
+# language code ["en", "zh-CN", "fr", "pl", ...]
+languageCode = "en"
+# language name ["English", "简体中文", "Français", "Polski", ...]
+languageName = "English"
+
+# Author config
+[author]
+  name = "Nisha Kumari"
+  email = "nishasinha68@gmail.com"
+  link = "https://www.linkedin.com/in/kumari-nisha/"
+
+# Menu config
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+
+[params]
+  defaultTheme = "auto"
+
+  # website description for RSS, SEO, Open Graph and Twitter Cards
+  description = "A site to share knowledge by Nisha Kumari"
+
+  header_image = "images/main_go_wideandtall_darklayer.jpeg"
+  slogan = "$ grep -rni \"The how's and why's\" ."
+  SEOTitle = "Nisha Kumari's Blog"
+  keyword = "Cloud computing, Dat Engineer, Devops, Docker, Kubernetes Microservice"
+
+  # Sidebar settings
+  sidebar_about_description = "Software Developer, Lady Developer!"
+  sidebar_avatar = "images/colored-me.jpeg"
+  about_me = true
+
+  featured_tags = true
+  featured_condition_size = 2 # How many posts have to have a given tag to be featured (greater-than)
+
+  image_404 = "images/404.png"
+  title_404 = "We couldn't find what you were looking for..."
+
+  omit_categories = false
+
+  [[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/top/about/"
+
+  [params.social]
+  email          = "nishasinha68@gmail.com"
+  linkedin       = "kumari-nisha"
+  github         = "nishasinha"
+  medium         = "@nishasinha"
+  stackoverflow  = "7261783/nisha-sinha"
+
+  [params.home]
+    rss = 10
+    [params.home.profile]
+      enable = true
+      gravatarEmail = ""
+      avatarURL = "/images/colored-me.jpeg"
+      title = ""
+      subtitle = "Creativity is just connecting things!"
+      typeit = true
+      social = true
+      disclaimer = ""
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      logo = ""
+      name = "Nisha Kumari's Site"
+      pre = ""
+      post = ""
+      typeit = false
+
+  # Footer config
+  [params.footer]
+    enable = true
+    custom = ''
+    hugo = false
+    copyright = true
+    author = true
+    since = 2022
+    icp = ""
+    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
