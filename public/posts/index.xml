@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - Nisha Kumari&#39;s Site</title>
+        <link>https://nishasinha.github.io/posts/</link>
+        <description>All Posts | Nisha Kumari&#39;s Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>nishasinha68@gmail.com (Nisha Kumari)</managingEditor>
+            <webMaster>nishasinha68@gmail.com (Nisha Kumari)</webMaster><lastBuildDate>Sun, 31 Jul 2022 01:27:04 &#43;0530</lastBuildDate><atom:link href="https://nishasinha.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Let&#39;s talk about cloud computing!</title>
+    <link>https://nishasinha.github.io/posts/cloud-computing/lets-talk-about-cloud-commputing/</link>
+    <pubDate>Sun, 31 Jul 2022 01:27:04 &#43;0530</pubDate>
+    <author>Nisha Kumari</author>
+    <guid>https://nishasinha.github.io/posts/cloud-computing/lets-talk-about-cloud-commputing/</guid>
+    <description><![CDATA[Hello reader! There is a new type of cloud in our world now. This cloud serves the software industry, is expected to never rain, never exhaust itself.
+Before you get stuck like the pilot above, let&rsquo;s collect some information on the what, why, and how to build or use this cloud?
+Progress in software usage Unprecedented!
+Think about the number of computers in the year 2000 to the year 2022.]]></description>
+</item>
+</channel>
+</rss>
