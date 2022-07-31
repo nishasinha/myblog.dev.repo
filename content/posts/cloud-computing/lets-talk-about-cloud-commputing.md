@@ -1,7 +1,18 @@
 ---
-title: "Cloud Computing"
+title: "Let's talk about cloud computing!"
 date: 2022-07-31T01:27:04+05:30
 draft: false
+---
+
+
+---
+Hello reader! There is a new type of cloud in our world now. 
+This cloud serves the software industry, is expected to never rain, never exhaust itself.
+
+![Cloud computers](/posts/cloud-computing/images/funny-cloud.png)
+
+Before you get stuck like the pilot above, let's collect some information on the `what, why, and how to build or use this cloud?`
+
 ---
 
 ## Progress in software usage
@@ -55,11 +66,11 @@ the download speed cannot go beyond a certain limit that the user goes away.
 ---
 ### Why cloud?
 Most businesses today need similar growth, that is:
-1. **Faster SDLC** - Fast for them to build software without worrying about buying and setting up their own infrastructure. Use ready made solutions.
-2. **Low operational cost** - Avoid capital expense of setting up an on premise data center.
-3. **High scalability** - To span across the world.
-4. **High performance, low latency** - Consistent Service level Agreement like 30 seconds response time for a web request anywhere.
-5. **Reliability** - During system failure, software failures and disasters in a region.
+1. `Faster SDLC` - Fast for them to build software without worrying about buying and setting up their own infrastructure. Use ready made solutions.
+2. `Low operational cost` - Avoid capital expense of setting up an on premise data center.
+3. `High scalability` - To span across the world.
+4. `High performance, low latency` - Consistent Service level Agreement like 30 seconds response time for a web request anywhere.
+5. `Reliability` - During system failure, software failures and disasters in a region.
 
 
 These requirements are extremely hard to be fulfilled by an in-house server room.
@@ -102,23 +113,23 @@ top global cloud service providers in 2022 are:
 ### Types of cloud services
 The services offered by cloud providers are largely classified into:
 
-1. **Infrastructure as a Service (IaaS)**
+1. `Infrastructure as a Service (IaaS)`
     - Basic infrastructure like servers and virtual machines (VMs), storage, networks, operating systems provided from a cloud provider on a pay-as-you-go basis.
     - Eg: Amazon EC2 and S3, Google Compute Engine, Oracle object Storage.
 
 
-2. **Platform as a Service (PaaS)**
+2. `Platform as a Service (PaaS)`
     - An on-demand environment for developing, testing, delivering and managing software applications.
     - Eg: Google Kubernetes Engine that provides Kubernetes as a platform to build microservices, Google App Engine, Heroku.
 
 
-3. **Serverless**
+3. `Serverless`
     - An event driven architecture where you build your application and give it to the cloud provider. When a request comes, this event is responded to by setting up the server machine, deploying the application on it, processing the request, responding and shutting down the server.
     - Resources are only used when needed, not always running. Saves money.
     - Eg: AWS Lambda function, OCI Data Flow, Functions.
 
 
-4. **Software as a Service (SaaS)**
+4. `Software as a Service (SaaS)`
     - Delivering software applications for direct or customized usage, on demand, on a subscription basis.
     - Eg: Salesforce (CRM), Zoom (meetings app), Shopify (CMS)
 
@@ -138,22 +149,22 @@ companies who are new and start with building [cloud native applications.](https
 
 ### Types of cloud computing
 For the consumers' usage, cloud is available in four forms:
-1. **Commercial or Public cloud**
+1. `Commercial or Public cloud`
     - Cloud resources hosted publicly over the internet.
     - Shared between consumers.  
     - Owned by the cloud company. Provided by almost all providers.
 
-2. **Dedicated or Private Cloud**
+2. `Dedicated or Private Cloud`
     - Cloud resources maintained on a private network.
     - Used exclusively by a single consumer.
     - May be located on the consumer's on-site datacenter.
     - Eg: [OCI DRCC](https://www.oracle.com/in/cloud/cloud-at-customer/dedicated-region/), Azure Private Cloud.
 
-3. **Hybrid Cloud**
+3. `Hybrid Cloud`
     - Consumers use both public and private clouds offered by one provider.
     - Data and applications move between them.
 
-4. **Multi Cloud**
+4. `Multi Cloud`
     - Consumers use cloud services of two or more providers together.
     - Eg: [OCI-Azure Interconnect](https://www.oracle.com/in/cloud/azure/interconnect/), which provides Oracle DB capabilities with operability in Azure cloud.
 
@@ -252,10 +263,12 @@ Finally, in 2020, I was promoted as a Data Engineer based on my project performa
 
 In 2021, I joined [Oracle Cloud Infrastructure](https://www.oracle.com/in/cloud/) as a Senior Software Engineer for [OCI Data Flow service](https://www.oracle.com/in/big-data/data-flow/), to gain an understanding of building cloud scale products.
 
-[Apache Spark](https://spark.apache.org/) is a distributed processing engine for large scale data analytics. 
+> [Apache Spark](https://spark.apache.org/) is a distributed processing engine for large scale data analytics. 
 Any spark job execution requires cluster deployment. 
 OCI Data Flow is a fully-managed serverless Spark service, where the application creates VMs, 
 sets up Spark cluster and executes customer job on demand.
+
+---
 
 #### References
 - https://azure.microsoft.com/en-in/resources/cloud-computing-dictionary/what-is-cloud-computing/#cloud-computing-models
